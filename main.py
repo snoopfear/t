@@ -69,4 +69,3 @@ if __name__ == "__main__":
             res.write(f"{address},{sent if sent is not None else ''},{fee if fee is not None else ''},{total if total is not None else ''},{status}\n")
             print(f"  >> sent: {sent}, fee: {fee}, total: {total}, status: {status}")
 
-    print("Готово! Результат в result.csv")
